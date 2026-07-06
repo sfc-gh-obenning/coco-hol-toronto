@@ -41,7 +41,9 @@ USE WAREHOUSE PORT_YTO_WH;
 """)
 
 
-PROMPT_1_2 = """In PORT_YTO_AI.PORT_OPS, load data from publicly hosted CSV files into tables.
+PROMPT_1_2 = """Use a notebook with appropriate external access integrations to do the following:
+
+In PORT_YTO_AI.PORT_OPS, load data from publicly hosted CSV files into tables.
 
 The CSV files are hosted at these URLs:
 - https://github.com/sfc-gh-obenning/coco-hol-toronto/raw/refs/heads/main/workshop_guide/static/terminals.csv
